@@ -3,10 +3,7 @@ pandas>=2.2.2
 sqlalchemy>=2.0.30
 duckdb>=1.0.0
 nbformat>=5.10.4
-nbclient>=0.10.0
-matplotlib>=3.8.0
-numpy>=1.26.0
-pyyaml>=6.0.0
 vllm
 transformers
 torch
+matplotlib

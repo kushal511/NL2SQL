@@ -1,0 +1,15 @@
+# Configuration for NL2SQL Gradio App
+
+notebook_path: NL2SQL_Baseline_vs_RAG_Analysis_final.ipynb
+
+# Map your notebook's function names here
+function_map:
+  generate_sql: [nb_generate_sql, generate_sql, question_to_sql, gen, zero_shot, few_shot]
+  execute_sql: [nb_execute_sql, execute_sql, run_sql, exe]
+  evaluate: [nb_evaluate, evaluate, eval_sql, eval_tech]
+  schema: [nb_schema_overview, schema_overview, get_schema, SCHEMA]
+
+# Optional settings
+insights:
+  enabled: true
+  max_charts: 2
